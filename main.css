@@ -1,0 +1,126 @@
+header {
+  background-color: red;
+  display: flex;
+  flex-direction: row;
+}
+.Logo {
+  background-color: pink;
+  flex: 1;
+}
+/* .nav {
+  background-color: violet;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+} */
+dl {
+  background-color: brown;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex: 1;
+  align-items: center;
+}
+/* main {
+  background-color: blue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+} */
+
+main {
+  background-color: blue;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+}
+
+main div {
+  display: flex;
+  background-color: green;
+  flex-flow: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+section {
+  background-color: green;
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+}
+.About {
+  /* background-color: white; */
+  display: flex;
+  flex: 1;
+  flex-flow: column;
+  margin: 0 50px;
+}
+.Contact {
+  /* background-color: purple; */
+  flex: 1;
+  margin: 0 50px;
+}
+.Instagram {
+  /* background-color: limegreen; */
+  flex: 1;
+  margin: 0 100px;
+}
+.Instagram img {
+  height: 5vw;
+}
+footer {
+  display: flex;
+  background-color: orange;
+}
+footer .rights {
+  flex: 4;
+  margin: 0 5px;
+}
+footer .img {
+  display: flex;
+  background-color: yellow;
+  flex: 1;
+  justify-content: space-around;
+  margin: 0 3px;
+}
+.img img {
+  height: 3vw;
+}
+.title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+}
+.table {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-direction: row;
+  background-color: yellow;
+  padding: 50px;
+}
+.left {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  background-color: green;
+}
+.right {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  background-color: red;
+}
+.right table {
+  display: flex;
+  justify-content: space-around;
+}
+input {
+  width: 150px;
+  height: 50px;
+}
